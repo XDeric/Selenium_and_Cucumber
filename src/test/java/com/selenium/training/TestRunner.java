@@ -11,11 +11,12 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true,
 		plugin = {"pretty", "json:target/JSONReports/report.json",
 				"pretty", "json:target/XMLReports/report.xml",
-				"pretty", "html:target/HTMLReports/report.html"},
-		tags = "@serviceTest or @regressionTest"
+				"pretty", "html:target/HTMLReports/report.html"}
+		//,
+		//tags = "@serviceTest or @regressionTest"
 				
 		)
-
+	//with tags you can run specific scenarios
 public class TestRunner {
 
 
